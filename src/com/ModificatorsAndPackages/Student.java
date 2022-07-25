@@ -1,3 +1,5 @@
+package com.ModificatorsAndPackages;
+
 import java.time.LocalDate;
 
 public class Student {
@@ -45,5 +47,15 @@ public class Student {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "com.ModificatorsAndPackages.Student{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", dateOfBirth=" + dateOfBirth +
+                ", email='" + email + '\'' +
+                '}';
     }
 }

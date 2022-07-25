@@ -1,3 +1,7 @@
+package com.ModificatorsAndPackages;
+
+import java.util.Arrays;
+
 public class Course {
     private String courseName;
     private int number;
@@ -44,4 +48,6 @@ public class Course {
     public void setGroups(Group[] groups) {
         this.groups = groups;
     }
+
 }
+
